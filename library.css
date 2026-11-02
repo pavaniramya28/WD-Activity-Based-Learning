@@ -1,0 +1,222 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #263445;
+}
+
+/* Header */
+header {
+    background-color: #142d4e;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #d5e3f5;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f5c46b;
+}
+
+/* Welcome Section */
+.welcome {
+    background-color: #dceaf5;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+.welcome h2 {
+    color: #142d4e;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.welcome p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Search Section */
+.search {
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.search h2 {
+    margin-bottom: 20px;
+    color: #142d4e;
+}
+
+input, select {
+    padding: 12px;
+    width: 220px;
+    border: 1px solid #b7c5d5;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #142d4e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e5a93d;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    color: #142d4e;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+/* Categories */
+#categories {
+    padding: 35px 20px;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.category {
+    background-color: #ffffff;
+    padding: 22px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px #cbd5df;
+}
+
+/* Book Cards */
+#books {
+    padding: 40px 20px;
+}
+
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.book-card {
+    background-color: white;
+    text-align: center;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #cbd5df;
+}
+
+.book-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.book-card h3 {
+    color: #142d4e;
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    margin: 8px;
+}
+
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.unavailable {
+    color: red;
+    font-weight: bold;
+}
+
+/* Catalog Table */
+.catalog {
+    padding: 40px 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #cbd5df;
+    padding: 14px;
+    text-align: center;
+}
+
+th {
+    background-color: #142d4e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eaf0f6;
+}
+
+/* Library Rules */
+.rules {
+    background-color: #dceaf5;
+    padding: 40px;
+}
+
+.rules ul {
+    max-width: 600px;
+    margin: auto;
+    line-height: 2.2;
+}
+
+/* Footer */
+footer {
+    background-color: #142d4e;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #d5e3f5;
+}
+

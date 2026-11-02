@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Library</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>📚 Digital Library</h1>
+        <p>Explore Knowledge, Discover Stories</p>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#books">Books</a>
+            <a href="#rules">Library Rules</a>
+        </nav>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="home" class="welcome">
+        <h2>Welcome to Our Digital Library</h2>
+        <p>
+            A place where knowledge meets imagination.
+            Explore different books, discover new authors
+            and enjoy reading every day.
+        </p>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search">
+        <h2>Find Your Favourite Book</h2>
+
+        <form>
+            <input type="search" placeholder="Search books...">
+
+            <select>
+                <option>All Categories</option>
+                <option>Technology</option>
+                <option>Science</option>
+                <option>Fiction</option>
+                <option>History</option>
+            </select>
+
+            <button type="button">Search</button>
+        </form>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories">
+        <h2 class="section-title">Book Categories</h2>
+
+        <div class="category-container">
+            <div class="category">💻 Technology</div>
+            <div class="category">🔬 Science</div>
+            <div class="category">📖 Fiction</div>
+            <div class="category">🌍 History</div>
+        </div>
+    </section>
+
+    <!-- Book Collection -->
+    <section id="books">
+        <h2 class="section-title">Popular Books</h2>
+
+        <div class="book-container">
+
+            <div class="book-card">
+                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500"
+                alt="Book cover">
+
+                <h3>Atomic Habits</h3>
+                <p>Author: James Clear</p>
+                <p class="available">Available</p>
+            </div>
+
+            <div class="book-card">
+                <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=500"
+                alt="Book cover">
+
+                <h3>Wings of Fire</h3>
+                <p>Author: A.P.J. Abdul Kalam</p>
+                <p class="available">Available</p>
+            </div>
+
+            <div class="book-card">
+                <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500"
+                alt="Book cover">
+
+                <h3>The Alchemist</h3>
+                <p>Author: Paulo Coelho</p>
+                <p class="unavailable">Not Available</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Book Details Table -->
+    <section class="catalog">
+        <h2 class="section-title">Book Catalog</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Book ID</th>
+                    <th scope="col">Book Name</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Availability</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>Atomic Habits</td>
+                    <td>James Clear</td>
+                    <td>Self Help</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>102</td>
+                    <td>Wings of Fire</td>
+                    <td>A.P.J. Abdul Kalam</td>
+                    <td>Biography</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>103</td>
+                    <td>The Alchemist</td>
+                    <td>Paulo Coelho</td>
+                    <td>Fiction</td>
+                    <td>Not Available</td>
+                </tr>
+
+                <tr>
+                    <td>104</td>
+                    <td>Brief History of Time</td>
+                    <td>Stephen Hawking</td>
+                    <td>Science</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Library Rules -->
+    <section id="rules" class="rules">
+        <h2 class="section-title">Library Rules & Regulations</h2>
+
+        <ul>
+            <li>Maintain silence inside the library.</li>
+            <li>Return books before the due date.</li>
+            <li>Handle books with care.</li>
+            <li>Do not damage or write on library books.</li>
+            <li>Keep the library clean and organized.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Digital Library</h3>
+        <p>Read More | Learn More | Grow More</p>
+        <p>© 2026 Digital Library. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
